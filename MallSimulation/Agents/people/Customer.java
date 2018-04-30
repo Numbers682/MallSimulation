@@ -13,7 +13,7 @@ public class Customer {
 		EXCELLENT, VERYGOOD, GOOD, NOTGOOD, POOR, VERYPOOR
 	}
 	
-	private double creditLimit;
+	private double creditLimit, spendingBias;
 	private int creditScore;
 	private Random random;
 	
@@ -21,6 +21,7 @@ public class Customer {
 	
 	public Customer() {
 		creditLimit = 0;
+		spendingBias = 0.5;
 		creditScore = 0;
 		random = new Random();
 	}
