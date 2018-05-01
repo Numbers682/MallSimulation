@@ -13,8 +13,10 @@ public class Customer {
 		EXCELLENT, VERYGOOD, GOOD, NOTGOOD, POOR, VERYPOOR
 	}
 	
+	@SuppressWarnings("unused")
 	private double creditLimit, spendingBias;
 	private int creditScore;
+	@SuppressWarnings("unused")
 	private Random random;
 	
 	CreditRisk creditRisk;

@@ -6,5 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="Agents"/>
+	<classpathentry kind="src" path="Framework"/>
+	<classpathentry kind="src" path="ProductsAndServices"/>
+	<classpathentry kind="src" path="Core"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
